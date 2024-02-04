@@ -27,7 +27,7 @@ jobs:
           key: venv-${{ hashFiles('poetry.lock') }}
 
       - run: poetry install
-      - run: poetry run python -m pytest --cov test
+      - run: poetry run python -m pytest --cov-report json:cov.json --cov test
         env:
           GH_PAT_PERSONAL: ${{ secrets.GH_PAT_PERSONAL }}
           GH_PAT_ORGANIZATION: ${{ secrets.GH_PAT_ORGANIZATION }}
