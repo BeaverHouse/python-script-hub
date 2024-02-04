@@ -20,18 +20,18 @@ jobs:
         with:
           poetry-version: "1.7.1"
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         name: Define a cache for the virtual environment based on the dependencies lock file
         with:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
 
       - run: poetry install
-      - run: poetry run python -m pytest --cov test
+      - run: poetry run python -m pytest --cov-report json:cov.json --cov test
         env:
           GH_PAT_PERSONAL: ${{ secrets.GH_PAT_PERSONAL }}
           GH_PAT_ORGANIZATION: ${{ secrets.GH_PAT_ORGANIZATION }}
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
