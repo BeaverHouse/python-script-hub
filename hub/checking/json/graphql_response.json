@@ -1,0 +1,90 @@
+{
+  "webCommitSignoffRequired": true,
+  "defaultBranchRef": {
+    "name": "main"
+  },
+  "isBlankIssuesEnabled": false,
+  "hasProjectsEnabled": false,
+  "mergeCommitAllowed": true,
+  "mergeCommitTitle": "PR_TITLE",
+  "mergeCommitMessage": "BLANK",
+  "squashMergeAllowed": true,
+  "squashMergeCommitTitle": "PR_TITLE",
+  "squashMergeCommitMessage": "BLANK",
+  "rebaseMergeAllowed": false,
+  "allowUpdateBranch": true,
+  "autoMergeAllowed": false,
+  "deleteBranchOnMerge": true,
+  "branchProtectionRules": {
+    "nodes": [
+      {
+        "pattern": "main",
+        "requiredApprovingReviewCount": 0,
+        "dismissesStaleReviews": false,
+        "requiresCodeOwnerReviews": true,
+        "restrictsReviewDismissals": false,
+        "bypassPullRequestAllowances": {
+          "edges": []
+        },
+        "requireLastPushApproval": false,
+        "requiresStatusChecks": true,
+        "requiresStrictStatusChecks": true,
+        "requiresConversationResolution": false,
+        "requiresCommitSignatures": false,
+        "requiresLinearHistory": false,
+        "requiresDeployments": false,
+        "lockBranch": false,
+        "isAdminEnforced": false,
+        "pushAllowances": {
+          "edges": []
+        },
+        "allowsForcePushes": false,
+        "allowsDeletions": false
+      }
+    ]
+  },
+  "rulesets": {
+    "edges": []
+  },
+  "hasVulnerabilityAlertsEnabled": true,
+  "labels": {
+    "nodes": [
+      {
+        "name": "Bug",
+        "color": "D04848"
+      },
+      {
+        "name": "Chore",
+        "color": "FEFAE0"
+      },
+      {
+        "name": "Code clean/refactor",
+        "color": "000000"
+      },
+      {
+        "name": "Content/Data",
+        "color": "BFDADC"
+      },
+      {
+        "name": "Docs",
+        "color": "96EFFF"
+      },
+      {
+        "name": "Feature",
+        "color": "FFD0EC"
+      },
+      {
+        "name": "Question",
+        "color": "5319E7"
+      },
+      {
+        "name": "Request",
+        "color": "C5E898"
+      },
+      {
+        "name": "Security",
+        "color": "D04848"
+      }
+    ]
+  }
+}
