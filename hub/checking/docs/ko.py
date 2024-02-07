@@ -39,7 +39,7 @@ def check_english_words(raw_content: str, name: str, is_hugo: bool = False) -> b
     for caption in image_captions:
         check_invalid_english(caption)
     
-    with open(f'text/{name}-{uuid.uuid4()}.md', "w", encoding="utf-8") as f:
+    with open(f'text/blog/{name}-{uuid.uuid4()}.md', "w", encoding="utf-8") as f:
         f.write(preserved_text)
         f.write("\n\n")
         for caption in image_captions:
