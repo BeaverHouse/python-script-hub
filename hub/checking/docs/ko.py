@@ -16,7 +16,7 @@ def check_invalid_english(content: str):
     invalid_words = set(english_words) - {SPECIAL_ENGLISH_WORDS}
 
     if len(invalid_words) > 0:
-        logging.error("invalid:", invalid_words)
+        logging.error("invalid: %s", invalid_words)
 
     assert not invalid_words
 

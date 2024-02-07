@@ -53,6 +53,6 @@ def get_hugo_image_captions(content: str) -> list[str]:
                 captions.append(match.group(1))
 
     if len(captions) > 0:
-        logging.info("captions:", captions)
+        logging.info("captions: %s", captions)
 
     return captions
