@@ -14,13 +14,13 @@
 
   <p align="center">
     <a href="https://www.python.org/">
-	    <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
     </a>
     <a href="https://python-poetry.org/">
-    	<img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
+      <img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
     </a>
     <a href="https://docs.pytest.org/en/8.0.x/">
-	    <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
+      <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
     </a>
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/BeaverHouse/python-script-hub" alt="License">
@@ -38,15 +38,19 @@ Effort to increase productivity by using [Python][py].
 
 **Current features**
 
-| **Feature**                | **Location**                                |
-| :------------------------- | :------------------------------------------ |
-| README generation          | `hub.making.readme`                         |
-| Test README template       | `test/test_readme.py::test_readme_template` |
-| Test repository settings\* | `test/test_repo.py::test_repo_settings`     |
+| **Feature**                          | **Location**                                |
+| :----------------------------------- | :------------------------------------------ |
+| Test LinkedIn profile                | `test/test_docs.py::test_linkedin_profile`  |
+| Test blog posts from [My blog][blog] | `test/test_docs.py::test_blog_posts`        |
+| README generation                    | `hub.making.readme`                         |
+| Test README template                 | `test/test_readme.py::test_readme_template` |
+| Test repository settings\*           | `test/test_repo.py::test_repo_settings`     |
+| Test repository README               | `test/test_readme.py::test_repo_readme`     |
 
 <sub>\*: GitHub API does not support entire access to its features.</sub>
 
 [py]: https://www.python.org/
+[blog]: https://github.com/BeaverHouse/blog
 
 <br>
 
