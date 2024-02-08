@@ -33,7 +33,11 @@ def make_readme(repo: str):
         python = "Python" in stacks,
         pytest = "Pytest" in stacks,
         pandas = "pandas" in stacks,
-        poetry = "Poetry" in stacks
+        poetry = "Poetry" in stacks,
+        react = "React" in stacks,
+        typescript = "TypeScript" in stacks,
+        eslint = "ESLint" in stacks,
+        yarn = "Yarn" in stacks
     )
 
     with open(f'result/readme/{name}.md', 'w+', encoding='utf-8') as readme:

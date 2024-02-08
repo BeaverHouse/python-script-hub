@@ -18,6 +18,26 @@
   </p>
 
   <p align="center">
+    {%- if react %}
+    <a href="https://react.dev/">
+      <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+    </a>
+    {%- endif %}
+    {%- if typescript %}
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+    </a>
+    {%- endif %}
+    {%- if eslint %}
+    <a href="https://eslint.org/">
+      <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat" alt="ESLint">
+    </a>
+    {%- endif %}
+    {%- if yarn %}
+    <a href="https://yarnpkg.com/">
+      <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat" alt="Yarn">
+    </a>
+    {%- endif %}
     {%- if markdown %}
     <a href="https://daringfireball.net/projects/markdown/">
       <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
