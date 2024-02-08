@@ -9,6 +9,7 @@ README generation
 Test README template
 Test repository settings*
 Test repository README
+Test repository README sentence
 *: GitHub API does not support entire access to its features.
 
 Requirements
