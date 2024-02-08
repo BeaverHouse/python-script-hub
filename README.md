@@ -14,13 +14,13 @@
 
   <p align="center">
     <a href="https://www.python.org/">
-	    <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
     </a>
     <a href="https://python-poetry.org/">
-    	<img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
+      <img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
     </a>
     <a href="https://docs.pytest.org/en/8.0.x/">
-	    <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
+      <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
     </a>
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/BeaverHouse/python-script-hub" alt="License">
