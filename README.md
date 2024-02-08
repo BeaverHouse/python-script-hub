@@ -41,7 +41,7 @@ Effort to increase productivity by using [Python][py].
 | **Feature**                          | **Location**                                |
 | :----------------------------------- | :------------------------------------------ |
 | Test LinkedIn profile                | `test/test_docs.py::test_linkedin_profile`  |
-| Test blog posts from [My blog][blog] | `test/test_docs.py::test_blog_posts`        |
+| Test blog posts from [my blog][blog] | `test/test_docs.py::test_blog_posts`        |
 | README generation                    | `hub.making.readme`                         |
 | Test README template                 | `test/test_readme.py::test_readme_template` |
 | Test repository settings\*           | `test/test_repo.py::test_repo_settings`     |
@@ -71,6 +71,8 @@ Effort to increase productivity by using [Python][py].
 
 3. Configure [Codecov][codecov] to make code coverage analysis.  
    Delete the related code if unnecessary.
+
+<br>
 
 **Install packages**
 
