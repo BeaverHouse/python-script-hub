@@ -1,5 +1,6 @@
 {
   "template": [],
   "BeaverHouse/repo-template": ["Markdown", "YAML"],
-  "BeaverHouse/python-script-hub": ["Poetry", "Pytest", "Python"]
+  "BeaverHouse/python-script-hub": ["Poetry", "Pytest", "Python"],
+  "BeaverHouse/aecheck-data": ["Poetry", "pandas", "Pytest", "Python"]
 }

@@ -12,6 +12,6 @@ def test_linkedin_profile():
 def test_blog_posts():
     os.makedirs('text/blog', exist_ok=True)
     for file in glob.glob('docs-personal/blog/*.md'):
-        file_name = file.split('\\')[-1].replace('.md', '')
+        file_name = file.split(os.sep)[-1].replace('.md', '')
         text = get_text_from_file(file)
         ko_docs.check_english_words(raw_content=text, name=file_name, is_hugo=True)
