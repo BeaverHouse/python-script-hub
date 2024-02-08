@@ -38,6 +38,11 @@
       <img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
     </a>
     {%- endif %}
+    {%- if pandas %}
+    <a href="https://pandas.pydata.org/">
+      <img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
+    </a>
+    {%- endif %}
     {%- if pytest %}
     <a href="https://docs.pytest.org/en/8.0.x/">
       <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">

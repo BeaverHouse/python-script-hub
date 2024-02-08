@@ -32,6 +32,7 @@ def make_readme(repo: str):
         yaml = "YAML" in stacks,
         python = "Python" in stacks,
         pytest = "Pytest" in stacks,
+        pandas = "pandas" in stacks,
         poetry = "Poetry" in stacks
     )
 
