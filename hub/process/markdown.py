@@ -25,7 +25,9 @@ def custom_preprocess(content: str) -> str:
 
 def md_to_text(content: str) -> str:
     html_content = markdown.markdown(content)
-    return bs4.BeautifulSoup(html_content, features="html.parser").get_text().strip()
+    return bs4.BeautifulSoup(html_content, features="html.parser").get_text() \
+        .strip() \
+        .replace(u'\xa0', u' ')
 
 
 
