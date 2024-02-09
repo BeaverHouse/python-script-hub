@@ -2,5 +2,8 @@
   "template": [],
   "BeaverHouse/repo-template": ["Markdown", "YAML"],
   "BeaverHouse/python-script-hub": ["Poetry", "Pytest", "Python"],
-  "BeaverHouse/aecheck-data": ["Poetry", "pandas", "Pytest", "Python"]
+  "BeaverHouse/aecheck-data": ["Poetry", "pandas", "Pytest", "Python"],
+  "BeaverHouse/aecheck-v3": ["React", "TypeScript", "ESLint", "Yarn"],
+  "HU-Lee/aecheck-v2": ["React", "TypeScript", "ESLint", "Yarn"],
+  "HU-Lee/anotherdungeon": []
 }
