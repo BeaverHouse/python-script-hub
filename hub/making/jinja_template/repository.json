@@ -5,5 +5,7 @@
   "BeaverHouse/aecheck-data": ["Poetry", "pandas", "Pytest", "Python"],
   "BeaverHouse/aecheck-v3": ["React", "TypeScript", "ESLint", "Yarn"],
   "HU-Lee/aecheck-v2": ["React", "TypeScript", "ESLint", "Yarn"],
-  "HU-Lee/anotherdungeon": []
+  "HU-Lee/anotherdungeon": [],
+  "HU-Lee/LeetCode": ["Python", "TypeScript", "Go"],
+  "HU-Lee/BOJ": ["Python", "TypeScript", "Go"]
 }
