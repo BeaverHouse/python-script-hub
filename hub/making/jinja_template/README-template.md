@@ -68,6 +68,11 @@
       <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
     </a>
     {%- endif %}
+    {%- if golang %}
+    <a href="https://go.dev/">
+      <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff&style=flat" alt="Go">
+    </a>
+    {%- endif %}
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/{{ repo }}" alt="License">
     </a>

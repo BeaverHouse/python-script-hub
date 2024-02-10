@@ -37,7 +37,8 @@ def make_readme(repo: str):
         react = "React" in stacks,
         typescript = "TypeScript" in stacks,
         eslint = "ESLint" in stacks,
-        yarn = "Yarn" in stacks
+        yarn = "Yarn" in stacks,
+        golang = "Go" in stacks
     )
 
     with open(f'result/readme/{name}.md', 'w+', encoding='utf-8') as readme:
