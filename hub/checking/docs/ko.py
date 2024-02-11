@@ -20,11 +20,11 @@ def check_invalid_english(content: str):
 
     assert not invalid_words
 
-def check_english_words(raw_content: str, name: str, is_hugo: bool = False) -> bool:
+def check_english_words(raw_content: str, name: str, folder: str) -> bool:
     
     # Preprocess
     content = standard_preprocess(raw_content)
-    if is_hugo:
+    if folder == "blog":
         image_captions = get_hugo_image_captions(content)
         content = hugo_preprocess(content)
     
@@ -36,12 +36,14 @@ def check_english_words(raw_content: str, name: str, is_hugo: bool = False) -> b
     full_preprocessed_text = md_to_text(full_preprocessed_content)
     
     check_invalid_english(full_preprocessed_text)
-    for caption in image_captions:
-        check_invalid_english(caption)
+    if folder == "blog":
+        for caption in image_captions:
+            check_invalid_english(caption)
     
-    with open(f'text/blog/{name}-{uuid.uuid4()}.md', "w", encoding="utf-8") as f:
+    with open(f'text/{folder}/{name}-{uuid.uuid4()}.md', "w", encoding="utf-8") as f:
         f.write(preserved_text)
         f.write("\n\n")
-        for caption in image_captions:
-            f.write(caption)
-            f.write("\n")
+        if folder == "blog":
+            for caption in image_captions:
+                f.write(caption)
+                f.write("\n")
