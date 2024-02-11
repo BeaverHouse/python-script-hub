@@ -5,6 +5,7 @@ Current features
 
 Test LinkedIn profile
 Test blog posts from my blog
+Test wiki posts from my wiki
 README generation
 Test README template
 Test repository settings*
@@ -29,6 +30,7 @@ Install packages
 
 poetry install
 
+Getting started
 Make README
 
 python -m hub.making.readme

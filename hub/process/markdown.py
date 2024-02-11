@@ -53,6 +53,8 @@ def get_hugo_image_captions(content: str) -> list[str]:
             match = re.search(pattern, line)
             if match:
                 captions.append(match.group(1))
+            else:
+                raise Exception("Failed to extract caption from line: " + line)
 
     if len(captions) > 0:
         logging.info("captions: %s", captions)

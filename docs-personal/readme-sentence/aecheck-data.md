@@ -13,7 +13,7 @@ delete v2 code, clean repository
 Data source
 
 Raw app data
-Seesaa wiki
+Seesaa Wiki
 AE wiki
 altema.jp
 
@@ -32,7 +32,7 @@ poetry install
 
 File description
 step0.py
-It imports personality data from Seesaa wiki.
+It imports personality data from Seesaa Wiki.
 step1.py
 It adds the missing i18n tags.
 step2.py
