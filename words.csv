@@ -58,6 +58,7 @@ Gatsby,https://www.gatsbyjs.com/
 Next.js,https://nextjs.org/
 Medium,https://medium.com/
 velog,https://velog.io/
+velog.io,https://velog.io/
 SEO,https://developer.mozilla.org/ko/docs/Glossary/SEO
 Node.js,https://nodejs.org/en
 Doks,https://github.com/gethyas/doks
@@ -67,3 +68,7 @@ Customization,적절한 단어가 없음
 LG,https://www.lg.co.kr/
 DBA,https://www.oracle.com/database/what-is-a-dba/
 K-DEVCON,https://k-devcon.com/
+BFS,https://en.wikipedia.org/wiki/Breadth-first_search
+DFS,https://en.wikipedia.org/wiki/Depth-first_search
+Selenium,https://www.selenium.dev/
+Beautiful Soup,https://www.crummy.com/software/BeautifulSoup/bs4/doc/
