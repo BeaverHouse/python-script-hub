@@ -34,6 +34,7 @@ overview_query_template = Template(
       mergeCommitMessage
       squashMergeCommitTitle
       squashMergeCommitMessage
+      isArchived
       
       branchProtectionRules(first: 100) {
         nodes {

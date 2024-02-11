@@ -46,7 +46,6 @@
   "rulesets": {
     "edges": []
   },
-  "hasVulnerabilityAlertsEnabled": true,
   "labels": {
     "nodes": [
       {
