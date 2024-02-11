@@ -1,5 +1,6 @@
 import glob
 import os
+import shutil
 import json
 from hub.process.markdown import md_to_text
 import hub.checking.docs.en as en_docs
@@ -12,6 +13,7 @@ def test_linkedin_profile():
         en_docs.check_capitalization_on_content(text)
 
 def test_blog_posts():
+    shutil.rmtree('text/blog', ignore_errors=True)
     os.makedirs('text/blog', exist_ok=True)
     for file in glob.glob('docs-personal/blog/*.md'):
         file_name = file.split(os.sep)[-1].replace('.md', '')
