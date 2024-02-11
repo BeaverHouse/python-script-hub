@@ -12,6 +12,20 @@ def test_linkedin_profile():
         text = get_text_from_file(file)
         en_docs.check_capitalization_on_content(text)
 
+def test_disquiet_profile():
+    shutil.rmtree('text/disquiet', ignore_errors=True)
+    os.makedirs('text/disquiet', exist_ok=True)
+    for file in glob.glob('docs-personal/disquiet/*.md'):
+        file_name = file.split(os.sep)[-1].replace('.md', '')
+        text = get_text_from_file(file)
+        ko_docs.check_english_words(raw_content=text, name=file_name, folder='disquiet')
+
+def test_peerlist_profile():
+    for file in glob.glob('docs-personal/peerlist/*.md'):
+        readme_sentences = get_text_from_file(file).split('\n')
+        for sentence in readme_sentences:
+            en_docs.check_capitalization(sentence)
+
 def test_blog_posts():
     shutil.rmtree('text/blog', ignore_errors=True)
     os.makedirs('text/blog', exist_ok=True)
