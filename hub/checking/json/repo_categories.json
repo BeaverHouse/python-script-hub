@@ -3,7 +3,7 @@
   "BeaverHouse/python-script-hub": ["CodeQL"],
   "BeaverHouse/aecheck-data": ["CodeQL"],
   "BeaverHouse/aecheck-v3": ["Wiki", "CodeQL", "dryrun"],
-  "HU-Lee/aecheck-v2": [],
+  "HU-Lee/aecheck-v2": ["Deprecated"],
   "HU-Lee/anotherdungeon": ["Deprecated"],
   "HU-Lee/BOJ": [],
   "HU-Lee/LeetCode": []

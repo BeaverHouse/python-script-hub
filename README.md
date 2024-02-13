@@ -41,6 +41,8 @@ Effort to increase productivity by using [Python][py].
 | **Feature**                          | **Location**                                   |
 | :----------------------------------- | :--------------------------------------------- |
 | Test LinkedIn profile                | `test/test_docs.py::test_linkedin_profile`     |
+| Test Disquiet profile                | `test/test_docs.py::test_disquiet_profile`     |
+| Test Peerlist profile                | `test/test_docs.py::test_peerlist_profile`     |
 | Test blog posts from [my blog][blog] | `test/test_docs.py::test_blog_posts`           |
 | Test wiki posts from [my wiki][wiki] | `test/test_docs.py::test_wiki_posts`           |
 | README generation                    | `hub.making.readme`                            |

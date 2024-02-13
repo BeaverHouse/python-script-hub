@@ -4,6 +4,8 @@ Effort to increase productivity by using Python.
 Current features
 
 Test LinkedIn profile
+Test Disquiet profile
+Test Peerlist profile
 Test blog posts from my blog
 Test wiki posts from my wiki
 README generation
