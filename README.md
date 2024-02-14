@@ -25,6 +25,9 @@
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/BeaverHouse/python-script-hub" alt="License">
     </a>
+    <a href="https://codecov.io/gh/BeaverHouse/python-script-hub" > 
+      <img src="https://codecov.io/gh/BeaverHouse/python-script-hub/graph/badge.svg?token=7W4lwCAxA8"/> 
+    </a>
   </p>
 </p>
 
