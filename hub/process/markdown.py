@@ -29,6 +29,10 @@ def md_to_text(content: str) -> str:
         .strip() \
         .replace(u'\xa0', u' ')
 
+def codecov_preprocess(content: str) -> str:
+    content = re.sub(r'\s*<a href="https://codecov.io.*</a>\s', "\n", content, flags=re.DOTALL)
+    
+    return content
 
 
 ##################################################
