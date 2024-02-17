@@ -28,6 +28,11 @@
       <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
     </a>
     {%- endif %}
+    {%- if javascript %}
+    <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat" alt="JavaScript">
+    </a>
+    {%- endif %}
     {%- if eslint %}
     <a href="https://eslint.org/">
       <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat" alt="ESLint">
@@ -43,6 +48,11 @@
       <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
     </a>
     {%- endif %}
+    {%- if helm %}
+    <a href="https://helm.sh/">
+      <img src="https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=fff&style=flat" alt="Helm">
+    </a>
+    {%- endif %}
     {%- if yaml %}
     <a href="https://yaml.org/">
       <img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
@@ -51,6 +61,11 @@
     {%- if python %}
     <a href="https://www.python.org/">
       <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+    </a>
+    {%- endif %}
+    {%- if fastapi %}
+    <a href="https://fastapi.tiangolo.com/">
+      <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff&style=flat" alt="FastAPI">
     </a>
     {%- endif %}
     {%- if poetry %}
@@ -66,6 +81,11 @@
     {%- if pytest %}
     <a href="https://docs.pytest.org/en/8.0.x/">
       <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
+    </a>
+    {%- endif %}
+    {%- if hugo %}
+    <a href="https://gohugo.io/">
+      <img src="https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=fff&style=flat" alt="Hugo">
     </a>
     {%- endif %}
     {%- if golang %}

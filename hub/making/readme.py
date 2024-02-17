@@ -36,6 +36,10 @@ def make_readme(repo: str):
         poetry = "Poetry" in stacks,
         react = "React" in stacks,
         typescript = "TypeScript" in stacks,
+        javascript = "JavaScript" in stacks,
+        hugo = "Hugo" in stacks,
+        helm = "Helm" in stacks,
+        fastapi = "FastAPI" in stacks,
         eslint = "ESLint" in stacks,
         yarn = "Yarn" in stacks,
         golang = "Go" in stacks
