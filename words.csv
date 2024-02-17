@@ -1,110 +1,110 @@
 고유명사,설명
 AE Check,https://aecheck.com/
+AI,https://cloud.google.com/learn/what-is-artificial-intelligence?hl=ko
+Another Eden,https://en.another-eden.jp/
 API,https://aws.amazon.com/what-is/api/?nc1=h_ls
 Argo,https://argoproj.github.io/
+Argo CD,https://argoproj.github.io/cd
+Argo Events,https://argoproj.github.io/events
+Argo Workflows,https://argoproj.github.io/workflows/
 BaekjoonHub,https://github.com/BaekjoonHub/BaekjoonHub
+Beautiful Soup,https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+BFS,https://en.wikipedia.org/wiki/Breadth-first_search
+Blue Archive,https://bluearchive.nexon.com/home
 BOJ,https://www.acmicpc.net/
+ChatGPT,https://chat.openai.com/
+Chemical & Biological Engineering,https://cbeen.snu.ac.kr/
+CI,https://aws.amazon.com/ko/devops/continuous-integration/
 CI/CD,https://www.redhat.com/ko/topics/devops/what-is-ci-cd
+CNCF,https://www.cncf.io/
 Codecov,https://about.codecov.io/
 Community Standards,https://github.com/BeaverHouse/repo-template/community
+CPU,https://en.wikipedia.org/wiki/Central_processing_unit
+Customization,적절한 단어가 없음
+DBA,https://www.oracle.com/database/what-is-a-dba/
 DevOps,https://aws.amazon.com/ko/devops/what-is-devops/
+DFS,https://en.wikipedia.org/wiki/Depth-first_search
+Disquiet,https://disquiet.io/
+Dive to Argo,https://dive-argo.haulrest.me/
 Docusaurus,https://docusaurus.io/
+Doks,https://github.com/gethyas/doks
 Elasticsearch,https://www.elastic.co/kr/elasticsearch
+English,-
 FastAPI,https://fastapi.tiangolo.com/
 Flutter,https://flutter.dev/
+Gatsby,https://www.gatsbyjs.com/
+GCP,https://cloud.google.com/?hl=ko
 GitHub,https://github.com/
 GitHub Actions,https://docs.github.com/en/actions
+GitHub Pages,https://pages.github.com/
 GitLab,https://about.gitlab.com/
 GitLab Pages,https://docs.gitlab.com/ee/user/project/pages/
+GPT4All,https://gpt4all.io/index.html
 gRPC,https://grpc.io/
 Helm,https://helm.sh/
+HTML,https://developer.mozilla.org/ko/docs/Glossary/HTML
 HU-Lee,My nickname
+Hugo,https://gohugo.io/
 Hyunuk Lee,My name
 IT,https://en.wikipedia.org/wiki/Information_technology
 Java,https://www.java.com/ko/
+JavaScript,https://developer.mozilla.org/ko/docs/Web/JavaScript
+Jekyll,https://jekyllrb.com/
 Jenkins,https://www.jenkins.io/
 JSON,https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+JSP,https://www.oracle.com/java/technologies/jspt.html
+K-DEVCON,https://k-devcon.com/
 K8s,https://kubernetes.io/
 Kibana,https://www.elastic.co/kr/kibana
+Korean,-
 Kubernetes,https://kubernetes.io/
+LangChain,https://www.langchain.com/
 LeetCode,https://leetcode.com/
 LeetHub-3.0,https://github.com/raphaelheinz/LeetHub-3.0
+LG,https://www.lg.co.kr/
 LinkedIn,https://www.linkedin.com/
+LOST ARK,https://lostark.game.onstove.com/Main
+macOS,https://support.apple.com/ko-kr/macos
+March,-
+Markor,https://github.com/gsantner/markor
+Material for MkDocs,https://squidfunk.github.io/mkdocs-material/
+Medium,https://medium.com/
 MkDocs,https://www.mkdocs.org/
 ML,https://www.ibm.com/kr-ko/topics/machine-learning
+MMORPG,https://store.steampowered.com/tags/en/MMORPG
+MS,https://www.microsoft.com/ko-kr
+Nexon,https://www.nexon.com/Home/Game
+Next.js,https://nextjs.org/
+Node.js,https://nodejs.org/en
 Obsidian,https://obsidian.md/
 Obsidian Git,https://github.com/denolehov/obsidian-git?tab=readme-ov-file
 PC,https://en.wikipedia.org/wiki/Personal_computer
+Peerlist,https://peerlist.io/
 Poetry,https://python-poetry.org/
+pymssql,https://pypi.org/project/pymssql/
 Python,https://www.python.org/
 React,https://react.dev/
 README,https://www.makeareadme.com/
+Repository,적절한 단어가 없음
+Ruby,https://www.ruby-lang.org/en/
+SDK,https://aws.amazon.com/ko/what-is/sdk/
 Seesaa Wiki,https://wiki.seesaa.jp/
+Selenium,https://www.selenium.dev/
+SEO,https://developer.mozilla.org/ko/docs/Glossary/SEO
+Seoul National University,https://www.snu.ac.kr/index.html
 Shiftone Co.,https://shiftone.kr/
+SK hynix,https://www.skhynix.com/
+Smilegate,https://www.smilegate.com/ko/
+SNS,https://en.wikipedia.org/wiki/Social_networking_service
 South Korea,https://en.wikipedia.org/wiki/South_Korea
 Spring Boot,https://spring.io/projects/spring-boot
-Triton Inference Server,https://github.com/triton-inference-server/server
-UI,https://en.wikipedia.org/wiki/User_interface
-Vision AI,https://cloud.google.com/vision?hl=ko
-Dive to Argo,https://dive-argo.haulrest.me/
-macOS,https://support.apple.com/ko-kr/macos
-Windows,https://www.microsoft.com/ko-kr/windows
-Markor,https://github.com/gsantner/markor
-GitHub Pages,https://pages.github.com/
-Jekyll,https://jekyllrb.com/
-Ruby,https://www.ruby-lang.org/en/
-Hugo,https://gohugo.io/
-Gatsby,https://www.gatsbyjs.com/
-Next.js,https://nextjs.org/
-Medium,https://medium.com/
-velog,https://velog.io/
-velog.io,https://velog.io/
-SEO,https://developer.mozilla.org/ko/docs/Glossary/SEO
-Node.js,https://nodejs.org/en
-Doks,https://github.com/gethyas/doks
-SNS,https://en.wikipedia.org/wiki/Social_networking_service
-HTML,https://developer.mozilla.org/ko/docs/Glossary/HTML
-Customization,적절한 단어가 없음
-LG,https://www.lg.co.kr/
-DBA,https://www.oracle.com/database/what-is-a-dba/
-K-DEVCON,https://k-devcon.com/
-BFS,https://en.wikipedia.org/wiki/Breadth-first_search
-DFS,https://en.wikipedia.org/wiki/Depth-first_search
-Selenium,https://www.selenium.dev/
-Beautiful Soup,https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-Argo Workflows,https://argoproj.github.io/workflows/
-Argo CD,https://argoproj.github.io/cd
-Argo Events,https://argoproj.github.io/events
-CI,https://aws.amazon.com/ko/devops/continuous-integration/
-Korean,-
-English,-
-ChatGPT,https://chat.openai.com/
-MS,https://www.microsoft.com/ko-kr
-AI,https://cloud.google.com/learn/what-is-artificial-intelligence?hl=ko
-CPU,https://en.wikipedia.org/wiki/Central_processing_unit
-LangChain,https://www.langchain.com/
-GPT4All,https://gpt4all.io/index.html
-JavaScript,https://developer.mozilla.org/ko/docs/Web/JavaScript
-SDK,https://aws.amazon.com/ko/what-is/sdk/
-Disquiet,https://disquiet.io/
-Peerlist,https://peerlist.io/
-pymssql,https://pypi.org/project/pymssql/
 SQL Server,https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads
 TDS,https://learn.microsoft.com/ko-kr/sql/relational-databases/security/networking/tds-8?view=sql-server-ver16
-Chemical & Biological Engineering,https://cbeen.snu.ac.kr/
-CNCF,https://www.cncf.io/
-Seoul National University,https://www.snu.ac.kr/index.html
-March,-
-JSP,https://www.oracle.com/java/technologies/jspt.html
-Another Eden,https://en.another-eden.jp/
-WFS,https://www.wfs.games/en-us/
+Triton Inference Server,https://github.com/triton-inference-server/server
 TypeScript,https://www.typescriptlang.org/
-LOST ARK,https://lostark.game.onstove.com/Main
-Smilegate,https://www.smilegate.com/ko/
-MMORPG,https://store.steampowered.com/tags/en/MMORPG
-Blue Archive,https://bluearchive.nexon.com/home
-Nexon,https://www.nexon.com/Home/Game
-GCP,https://cloud.google.com/?hl=ko
-SK hynix,https://www.skhynix.com/
-Repository,적절한 단어가 없음
-Material for MkDocs,https://squidfunk.github.io/mkdocs-material/
+UI,https://en.wikipedia.org/wiki/User_interface
+velog,https://velog.io/
+velog.io,https://velog.io/
+Vision AI,https://cloud.google.com/vision?hl=ko
+WFS,https://www.wfs.games/en-us/
+Windows,https://www.microsoft.com/ko-kr/windows
