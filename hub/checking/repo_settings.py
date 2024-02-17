@@ -23,8 +23,10 @@ def check_repository_settings(repo: str):
     assert repository_info["hasWikiEnabled"] == ("Wiki" in categories)
     assert repository_info["hasDiscussionsEnabled"] == ("Discussions" in categories)
     assert repository_info["hasIssuesEnabled"] == ("Deprecated" not in categories or issue_total_count > 0)
+    if not repository_info["hasVulnerabilityAlertsEnabled"]:
+        assert repository_info["isArchived"] and ("Deprecated" in categories)
     
-    for key in ["name", "description", "isTemplate", "hasWikiEnabled", "hasDiscussionsEnabled", "hasIssuesEnabled"]:
+    for key in ["name", "description", "isTemplate", "hasWikiEnabled", "hasDiscussionsEnabled", "hasIssuesEnabled", "hasVulnerabilityAlertsEnabled", "isArchived", "issues"]:
         del repository_info[key]
 
     requiredStatusChecks = list(filter(
@@ -35,13 +37,6 @@ def check_repository_settings(repo: str):
         [x["context"] for x in repository_info["branchProtectionRules"]["nodes"][0]["requiredStatusChecks"]]
     ) == sorted(requiredStatusChecks)
     del repository_info["branchProtectionRules"]["nodes"][0]["requiredStatusChecks"]
-
-    if not repository_info["hasVulnerabilityAlertsEnabled"]:
-        assert repository_info["isArchived"] and ("Deprecated" in categories)
-
-    del repository_info["isArchived"]
-    del repository_info["hasVulnerabilityAlertsEnabled"]
-    del repository_info["issues"]
 
     with open('assets/json/graphql_response.json', 'r') as f:
         response_template = json.load(f)
