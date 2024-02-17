@@ -18,11 +18,11 @@ def make_readme(repo: str):
         issue_response = get_graphql_response(issue_query, org= ORG_NAME in repo)
         repository_info = issue_response["data"]["repository"]
 
-    with open('hub/making/jinja_template/repository.json', 'r') as f:
+    with open('assets/json/repo_stacks.json', 'r') as f:
         repo_config = json.load(f)
     stacks = repo_config[repo]
     
-    template = jinja2.Template(get_text_from_file('hub/making/jinja_template/README-template.md'))
+    template = jinja2.Template(get_text_from_file('assets/jinja_template/README-template.md'))
     
     rendered_readme = template.render(
         repo=repo,

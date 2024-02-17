@@ -43,7 +43,7 @@ def test_wiki_posts():
         ko_docs.check_english_words(raw_content=text, name=file_name, folder='wiki')
 
 def test_repo_readme_sentence():
-    with open('hub/making/jinja_template/repository.json', 'r') as f:
+    with open('assets/json/repo_stacks.json', 'r') as f:
         repo_config: dict = json.load(f)
     for repo in repo_config.keys():
         if repo == "template":

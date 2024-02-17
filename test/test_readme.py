@@ -16,7 +16,7 @@ def test_readme_template():
     
 def test_repo_readme():
     os.makedirs('result/readme', exist_ok=True)
-    with open('hub/making/jinja_template/repository.json', 'r') as f:
+    with open('assets/json/repo_stacks.json', 'r') as f:
         repo_config: dict = json.load(f)
     for repo, categories in repo_config.items():
         if repo == "template":

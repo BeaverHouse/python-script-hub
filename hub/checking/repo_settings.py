@@ -12,7 +12,7 @@ def check_repository_settings(repo: str):
     repository_info = issue_response["data"]["repository"]
     issue_total_count = repository_info["issues"]["totalCount"]
 
-    with open('hub/checking/json/repo_categories.json', 'r') as f:
+    with open('assets/json/repo_features.json', 'r') as f:
         repo_config = json.load(f)
     categories = repo_config[repo]
     
@@ -43,7 +43,7 @@ def check_repository_settings(repo: str):
     del repository_info["hasVulnerabilityAlertsEnabled"]
     del repository_info["issues"]
 
-    with open('hub/checking/json/graphql_response.json', 'r') as f:
+    with open('assets/json/graphql_response.json', 'r') as f:
         response_template = json.load(f)
     
     # Sort labels separately
