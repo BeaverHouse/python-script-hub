@@ -1,5 +1,6 @@
 import os
 import json
+from hub.process.markdown import codecov_preprocess
 from hub.making.readme import make_readme
 from hub.util.files import get_text_from_file, get_text_from_url
 
@@ -17,7 +18,7 @@ def test_repo_readme():
     os.makedirs('result/readme', exist_ok=True)
     with open('hub/making/jinja_template/repository.json', 'r') as f:
         repo_config: dict = json.load(f)
-    for repo in repo_config.keys():
+    for repo, categories in repo_config.items():
         if repo == "template":
             continue
         make_readme(repo)
@@ -27,5 +28,7 @@ def test_repo_readme():
         content_suffix = template_content.split(CONTENT_COMMENT)[1].strip()
 
         online_content = get_text_from_url(f'https://raw.githubusercontent.com/{repo}/main/README.md')
+        if "Codecov" in categories:
+            online_content = codecov_preprocess(online_content)
         assert online_content.startswith(content_prefix) 
         assert online_content.endswith(content_suffix)

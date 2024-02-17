@@ -1,11 +1,15 @@
 {
   "template": [],
   "BeaverHouse/repo-template": ["Markdown", "YAML"],
-  "BeaverHouse/python-script-hub": ["Poetry", "Pytest", "Python"],
+  "BeaverHouse/python-script-hub": ["Poetry", "Pytest", "Python", "Codecov"],
   "BeaverHouse/aecheck-data": ["Poetry", "pandas", "Pytest", "Python"],
   "BeaverHouse/aecheck-v3": ["React", "TypeScript", "ESLint", "Yarn"],
+  "BeaverHouse/profile": ["React", "JavaScript", "Yarn"],
+  "BeaverHouse/blog": ["Hugo"],
+  "BeaverHouse/dive-argo-fastapi-helm": ["Helm"],
+  "BeaverHouse/dive-argo-fastapi": ["Python", "FastAPI"],
   "HU-Lee/aecheck-v2": ["React", "TypeScript", "Yarn"],
   "HU-Lee/anotherdungeon": [],
-  "HU-Lee/LeetCode": ["Python", "TypeScript", "Go"],
+  "HU-Lee/LeetCode": ["Python", "TypeScript", "Go", "JavaScript"],
   "HU-Lee/BOJ": ["Python", "TypeScript", "Go"]
 }
