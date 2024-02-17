@@ -10,6 +10,6 @@
   "BeaverHouse/dive-argo-fastapi": ["Python", "FastAPI"],
   "HU-Lee/aecheck-v2": ["React", "TypeScript", "Yarn"],
   "HU-Lee/anotherdungeon": [],
-  "HU-Lee/LeetCode": ["Python", "TypeScript", "Go", "JavaScript"],
-  "HU-Lee/BOJ": ["Python", "TypeScript", "Go"]
+  "HU-Lee/LeetCode": ["TypeScript", "JavaScript", "Python", "Go"],
+  "HU-Lee/BOJ": ["TypeScript", "Python", "Go"]
 }
