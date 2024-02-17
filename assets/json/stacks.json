@@ -1,0 +1,77 @@
+[
+  {
+    "href": "https://react.dev/",
+    "src": "https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black",
+    "name": "React"
+  },
+  {
+    "href": "https://www.typescriptlang.org/",
+    "src": "https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white",
+    "name": "TypeScript"
+  },
+  {
+    "href": "https://developer.mozilla.org/ko/docs/Web/JavaScript",
+    "src": "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat",
+    "name": "JavaScript"
+  },
+  {
+    "href": "https://eslint.org/",
+    "src": "https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat",
+    "name": "ESLint"
+  },
+  {
+    "href": "https://yarnpkg.com/",
+    "src": "https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat",
+    "name": "Yarn"
+  },
+  {
+    "href": "https://daringfireball.net/projects/markdown/",
+    "src": "https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white",
+    "name": "Markdown"
+  },
+  {
+    "href": "https://helm.sh/",
+    "src": "https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=fff&style=flat",
+    "name": "Helm"
+  },
+  {
+    "href": "https://yaml.org/",
+    "src": "https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white",
+    "name": "YAML"
+  },
+  {
+    "href": "https://www.python.org/",
+    "src": "https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white",
+    "name": "Python"
+  },
+  {
+    "href": "https://fastapi.tiangolo.com/",
+    "src": "https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff&style=flat",
+    "name": "FastAPI"
+  },
+  {
+    "href": "https://python-poetry.org/",
+    "src": "https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white",
+    "name": "Poetry"
+  },
+  {
+    "href": "https://pandas.pydata.org/",
+    "src": "https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white",
+    "name": "pandas"
+  },
+  {
+    "href": "https://docs.pytest.org/en/8.0.x/",
+    "src": "https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white",
+    "name": "Pytest"
+  },
+  {
+    "href": "https://gohugo.io/",
+    "src": "https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=fff&style=flat",
+    "name": "Hugo"
+  },
+  {
+    "href": "https://go.dev/",
+    "src": "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff&style=flat",
+    "name": "Go"
+  }
+]

@@ -18,81 +18,11 @@
   </p>
 
   <p align="center">
-    {%- if react %}
-    <a href="https://react.dev/">
-      <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+    {%- for stack in stacks %}
+    <a href="{{ stack['href'] }}">
+      <img src="{{ stack['src'] }}" alt="{{ stack['name'] }}">
     </a>
-    {%- endif %}
-    {%- if typescript %}
-    <a href="https://www.typescriptlang.org/">
-      <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
-    </a>
-    {%- endif %}
-    {%- if javascript %}
-    <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat" alt="JavaScript">
-    </a>
-    {%- endif %}
-    {%- if eslint %}
-    <a href="https://eslint.org/">
-      <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat" alt="ESLint">
-    </a>
-    {%- endif %}
-    {%- if yarn %}
-    <a href="https://yarnpkg.com/">
-      <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat" alt="Yarn">
-    </a>
-    {%- endif %}
-    {%- if markdown %}
-    <a href="https://daringfireball.net/projects/markdown/">
-      <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
-    </a>
-    {%- endif %}
-    {%- if helm %}
-    <a href="https://helm.sh/">
-      <img src="https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=fff&style=flat" alt="Helm">
-    </a>
-    {%- endif %}
-    {%- if yaml %}
-    <a href="https://yaml.org/">
-      <img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
-    </a>
-    {%- endif %}
-    {%- if python %}
-    <a href="https://www.python.org/">
-      <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
-    </a>
-    {%- endif %}
-    {%- if fastapi %}
-    <a href="https://fastapi.tiangolo.com/">
-      <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff&style=flat" alt="FastAPI">
-    </a>
-    {%- endif %}
-    {%- if poetry %}
-    <a href="https://python-poetry.org/">
-      <img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
-    </a>
-    {%- endif %}
-    {%- if pandas %}
-    <a href="https://pandas.pydata.org/">
-      <img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
-    </a>
-    {%- endif %}
-    {%- if pytest %}
-    <a href="https://docs.pytest.org/en/8.0.x/">
-      <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=Pytest&logoColor=white" alt="Pytest">
-    </a>
-    {%- endif %}
-    {%- if hugo %}
-    <a href="https://gohugo.io/">
-      <img src="https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=fff&style=flat" alt="Hugo">
-    </a>
-    {%- endif %}
-    {%- if golang %}
-    <a href="https://go.dev/">
-      <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff&style=flat" alt="Go">
-    </a>
-    {%- endif %}
+    {%- endfor %}
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/{{ repo }}" alt="License">
     </a>

@@ -20,7 +20,8 @@ def make_readme(repo: str):
 
     with open('assets/json/repo_stacks.json', 'r') as f:
         repo_config = json.load(f)
-    stacks = repo_config[repo]
+    with open('assets/json/stacks.json', 'r') as f:
+        stacks = [x for x in json.load(f) if x['name'] in repo_config[repo]]
     
     template = jinja2.Template(get_text_from_file('assets/jinja_template/README-template.md'))
     
@@ -28,21 +29,7 @@ def make_readme(repo: str):
         repo=repo,
         description=repository_info["description"], 
         homepage=repository_info["homepageUrl"],
-        markdown = "Markdown" in stacks,
-        yaml = "YAML" in stacks,
-        python = "Python" in stacks,
-        pytest = "Pytest" in stacks,
-        pandas = "pandas" in stacks,
-        poetry = "Poetry" in stacks,
-        react = "React" in stacks,
-        typescript = "TypeScript" in stacks,
-        javascript = "JavaScript" in stacks,
-        hugo = "Hugo" in stacks,
-        helm = "Helm" in stacks,
-        fastapi = "FastAPI" in stacks,
-        eslint = "ESLint" in stacks,
-        yarn = "Yarn" in stacks,
-        golang = "Go" in stacks
+        stacks = stacks
     )
 
     with open(f'result/readme/{name}.md', 'w+', encoding='utf-8') as readme:
