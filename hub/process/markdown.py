@@ -7,7 +7,7 @@ import logging
 def standard_preprocess(content: str) -> str:
     """Preprocess for all markdown files"""
     # Exclude code blocks
-    content = re.sub(r"```[\w\W]*```", "", content, flags=re.DOTALL)
+    content = re.sub(r"```.*?```", "", content, flags=re.DOTALL)
     
     # Exclude markdown info
     content = re.sub(r'---.*?---', '', content, flags=re.DOTALL)
