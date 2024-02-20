@@ -8,11 +8,10 @@ Test Disquiet profile
 Test Peerlist profile
 Test blog posts from my blog
 Test wiki posts from my wiki
-README generation
+Test repository README
 Test README template
 Test repository settings*
-Test repository README
-Test repository README sentence
+README generation  
 *: GitHub API does not support entire access to its features.
 
 Requirements
