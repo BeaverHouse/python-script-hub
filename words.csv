@@ -112,3 +112,18 @@ BuildKit,https://github.com/moby/buildkit
 Docker,https://www.docker.com/
 kaniko,https://github.com/GoogleContainerTools/kaniko
 AWS,https://aws.amazon.com/ko/
+CSR,https://nextjs.org/docs/pages/building-your-application/rendering/client-side-rendering
+Client-side Rendering,https://nextjs.org/docs/pages/building-your-application/rendering/client-side-rendering
+SSR,https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering
+Server-side Rendering,https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering
+SSG,https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation
+Static Site Generation,https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation
+SPA,https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/
+Single Page Application,https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/
+MPA,https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/
+Multi Page Application,https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/
+<div>,https://www.w3schools.com/tags/tag_div.ASP
+Nuxt,https://nuxt.com/
+Jupyter Notebook,https://jupyter.org/
+PVC,https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+Pod,https://kubernetes.io/ko/docs/concepts/workloads/pods/
