@@ -18,8 +18,9 @@ def standard_preprocess(content: str) -> str:
     return content
 
 def custom_preprocess(content: str) -> str:
-    """Exclude custom exceptions"""
+    """Exclude custom exceptions and little code blocks"""
     content = re.sub(r'<span class="exclude">.*?</span>', SPECIAL_ENGLISH_WORDS, content, flags=re.DOTALL)
+    content = re.sub(r"`.*?`", "", content, flags=re.DOTALL)
     
     return content
 
