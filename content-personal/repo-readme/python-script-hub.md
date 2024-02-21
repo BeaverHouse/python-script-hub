@@ -38,3 +38,6 @@ python -m hub.making.readme
 Test
 
 python -m pytest --cov test
+
+OSS Notice
+See the OSS Notice | python-script-hub.

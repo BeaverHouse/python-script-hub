@@ -109,8 +109,15 @@ python -m pytest --cov test
 
 <br>
 
+## OSS Notice
+
+See the [OSS Notice | python-script-hub][oss-notice].
+
+<br>
+
 ## Contributing
 
 See the [CONTRIBUTING.md][contributing].
 
+[oss-notice]: ./oss-notice.md
 [contributing]: ./CONTRIBUTING.md
