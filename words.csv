@@ -128,3 +128,8 @@ Jupyter Notebook,https://jupyter.org/
 PVC,https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 Pod,https://kubernetes.io/ko/docs/concepts/workloads/pods/
 Jinja,https://jinja.palletsprojects.com/en
+Rally,https://github.com/elastic/rally
+Git,https://git-scm.com/
+JDK,https://www.oracle.com/kr/java/technologies/downloads/
+WSL,https://learn.microsoft.com/ko-kr/windows/wsl/install
+Linux,https://www.linuxfoundation.org/
