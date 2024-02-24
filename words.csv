@@ -128,3 +128,15 @@ Jupyter Notebook,https://jupyter.org/
 PVC,https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 Pod,https://kubernetes.io/ko/docs/concepts/workloads/pods/
 Jinja,https://jinja.palletsprojects.com/en
+Rally,https://github.com/elastic/rally
+Git,https://git-scm.com/
+JDK,https://www.oracle.com/kr/java/technologies/downloads/
+WSL,https://learn.microsoft.com/ko-kr/windows/wsl/install
+Linux,https://www.linuxfoundation.org/
+OSS Notice,https://www.plaync.com/policy/api/view/pc/varco_llm_oss
+Pytest,https://docs.pytest.org/en
+LanguageTool,https://languagetool.org/
+IaC,https://www.redhat.com/ko/topics/automation/what-is-infrastructure-as-code-iac
+Infrastructure as Code,https://www.redhat.com/ko/topics/automation/what-is-infrastructure-as-code-iac
+Amazon EKS,https://aws.amazon.com/ko/eks/
+GKE,https://cloud.google.com/kubernetes-engine?hl=ko
