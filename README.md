@@ -113,7 +113,7 @@ python -m pytest --cov test
 
 See the [OSS Notice | python-script-hub][oss-notice].
 
-[oss-notice]: ./oss-notice.md
+[oss-notice]: ./OSS.md
 
 <br>
 
