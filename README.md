@@ -41,17 +41,12 @@ Effort to increase productivity by using [Python][py].
 
 **Current features**
 
-| **Feature**                          | **Location**                                  |
-| :----------------------------------- | :-------------------------------------------- |
-| Test LinkedIn profile                | `test/test_content.py::test_linkedin_profile` |
-| Test Disquiet profile                | `test/test_content.py::test_disquiet_profile` |
-| Test Peerlist profile                | `test/test_content.py::test_peerlist_profile` |
-| Test blog posts from [my blog][blog] | `test/test_content.py::test_blog_posts`       |
-| Test wiki posts from [my wiki][wiki] | `test/test_content.py::test_wiki_posts`       |
-| Test repository README               | `test/test_content.py::test_repo_readme`      |
-| Test README template                 | `test/test_repo.py::test_readme_template`     |
-| Test repository settings\*           | `test/test_repo.py::test_repo_settings`       |
-| README generation                    | `hub.making.readme`                           |
+| **Feature**                | **Location**                              |
+| :------------------------- | :---------------------------------------- |
+| Test repository README     | `test/test_content.py::test_repo_readme`  |
+| Test README template       | `test/test_repo.py::test_readme_template` |
+| Test repository settings\* | `test/test_repo.py::test_repo_settings`   |
+| README generation          | `hub.making.readme`                       |
 
 <sub>\*: GitHub API does not support entire access to its features.</sub>
 
