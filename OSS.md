@@ -20,14 +20,6 @@ Copyright 2019 TAHRI Ahmed R
 
 MIT License
 
-**Click**
-
-https://github.com/pallets/click
-
-Copyright 2014 Pallets
-
-BSD 3-Clause "New" or "Revised" License
-
 **colorama**
 
 https://github.com/tartley/colorama
@@ -80,14 +72,6 @@ Copyright 2007 Pallets
 
 BSD 3-Clause "New" or "Revised" License
 
-**Joblib**
-
-https://github.com/joblib/joblib
-
-Copyright 2008-2016, The joblib developers
-
-BSD 3-Clause "New" or "Revised" License
-
 **MarkupSafe**
 
 https://github.com/pallets/markupsafe
@@ -95,14 +79,6 @@ https://github.com/pallets/markupsafe
 Copyright 2010 Pallets
 
 BSD 3-Clause "New" or "Revised" License
-
-**Natural Language Toolkit (NLTK)**
-
-https://github.com/nltk/nltk
-
-Copyright 2001-2020 NLTK Project
-
-Apache License 2.0
 
 **NumPy**
 
@@ -209,18 +185,6 @@ https://github.com/facelessuser/soupsieve
 Copyright 2018 Isaac Muse isaacmuse@gmail.com
 
 MIT License
-
-**tqdm**
-
-https://github.com/tqdm/tqdm
-
-Copyright 2015-2018 Casper da Costa-Luis.
-
-Copyright 2016 \[PR \#96\] on behalf of Google Inc.
-
-Copyright 2013 Noam Yorav-Raphael, original author.
-
-Mozilla Public License 2.0
 
 **tzdata**
 
