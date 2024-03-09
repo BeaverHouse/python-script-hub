@@ -23,3 +23,11 @@ def get_graphql_response(query: str, org: bool) -> dict:
     response.raise_for_status()
 
     return response.json()
+
+def get_rest_response(endpoint: str, org: bool) -> dict:
+    url = f"https://api.github.com/{endpoint}"
+
+    response = requests.get(url=url, headers=get_headers(org))
+    response.raise_for_status()
+
+    return response.json()
