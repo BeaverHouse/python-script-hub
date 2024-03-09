@@ -1,6 +1,6 @@
 import json
 import os
-from hub.checking.repo_settings import *
+from hub.checking.repo import *
 from hub.making.readme import make_readme
 from hub.util.files import get_text_from_file, get_text_from_url
 
