@@ -68,11 +68,9 @@ def check_issues(repo: str, is_ps: bool):
     for issue in response:
         assert len(issue["labels"]) > 0
         assert issue["assignees"][0]["login"] == OWNER
-        if is_ps:
-            assert issue["locked"] == True
-            assert issue["active_lock_reason"] == "resolved"
-        else:
-            assert issue["locked"] == False
+        assert issue["locked"] == True
+        assert issue["active_lock_reason"] == "resolved"
+        if not is_ps and "pull_request" not in issue:
             label_names = list(map(lambda x: x["name"], issue["labels"]))
             assert "Request" in label_names
 
