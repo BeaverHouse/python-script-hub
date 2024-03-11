@@ -19,6 +19,8 @@ pyarrow = "^15.0.0"
 mypy = "^1.9.0"
 pylint = "^3.1.0"
 types-requests = "^2.31.0.20240218"
+types-markdown = "^3.5.0.20240311"
+types-beautifulsoup4 = "^4.12.0.20240229"
 
 
 [build-system]
