@@ -1,3 +1,5 @@
+"""Module to store GraphQL queries."""
+
 from string import Template
 
 readme_query_template = Template(
