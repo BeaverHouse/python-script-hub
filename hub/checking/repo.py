@@ -50,7 +50,7 @@ def check_repository_settings(repo: str):
 def check_pull_requests(repo: str):
     owner, name = repo.split("/")
 
-    endpoint = f"repos/{owner}/{name}/pulls"
+    endpoint = f"repos/{owner}/{name}/pulls?state=all"
 
     response = get_rest_response(endpoint, org= ORG_NAME in repo)
     for pr in response:
@@ -62,7 +62,7 @@ def check_pull_requests(repo: str):
 def check_issues(repo: str, is_ps: bool):
     owner, name = repo.split("/")
 
-    endpoint = f"repos/{owner}/{name}/issues"
+    endpoint = f"repos/{owner}/{name}/issues?state=all"
 
     response = get_rest_response(endpoint, org= ORG_NAME in repo)
     for issue in response:
