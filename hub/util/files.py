@@ -4,7 +4,7 @@ import requests
 
 def get_text_from_file(file_path: str) -> str:
     """
-    Reads text data from the specified file path and returns the content as a string.
+    Gets text content from the specified file path.
 
     Args:
         file_path (str): The path to the file to be read.
@@ -17,11 +17,11 @@ def get_text_from_file(file_path: str) -> str:
 
 def get_text_from_url(url: str) -> str:
     """
-    Retrieves text content from the provided URL and returns it as a string.
-    
+    Gets the text content from the provided URL.
+
     Args:
         url (str): The URL from which to retrieve the text content.
-        
+
     Returns:
         str: The text content retrieved from the URL.
     """
