@@ -48,31 +48,75 @@ def check_repository_settings(repo: str):
     assert json.dumps(response_template, sort_keys=True) == json.dumps(repository_info, sort_keys=True)
 
 def check_pull_requests(repo: str):
+    """
+    Function to check the pull requests for a given repository.
+
+    1. Call GitHub REST API to get pull requests
+    2. Assert that:
+        - each issue has at least one label
+        - each issue's assignee is the owner
+        - each issue is locked
+        - each issue's active lock reason is resolved
+
+    Args:
+        repo (str): The repository in the format owner/name.
+
+    Returns:
+        None
+    """
     owner, name = repo.split("/")
 
     endpoint = f"repos/{owner}/{name}/pulls?state=all"
 
     response = get_rest_response(endpoint, org= ORG_NAME in repo)
     for pr in response:
-        assert len(pr["labels"]) > 0
-        assert pr["assignees"][0]["login"] == OWNER
-        assert pr["locked"] == True
-        assert pr["active_lock_reason"] == "resolved"
+        assert len(pr["labels"]) > 0, \
+            f'{repo} PR #{pr["number"]} has no label'
+        assert pr["assignees"][0]["login"] == OWNER, \
+            f'{repo} PR #{pr["number"]} is not assigned to {OWNER}'
+        assert pr["locked"] == True, \
+            f'{repo} PR #{pr["number"]} is not locked'
+        assert pr["active_lock_reason"] == "resolved", \
+            f'{repo} PR #{pr["number"]} is not resolved'
 
 def check_issues(repo: str, is_ps: bool):
+    """
+    Function to check the issues in a given repository.
+
+    1. Call GitHub REST API to get issues
+    2. Assert that:
+        - each issue has at least one label
+        - each issue's assignee is the owner
+        - each issue is locked
+        - each issue's active lock reason is resolved
+    3. If the repository is not about problem solving and the issue is not a pull request:
+        - assert that each issue has "Request" label
+
+    Args:
+        repo (str): The repository in the format owner/name.
+        is_ps (bool): A boolean indicating if the repository is about problem solving.
+
+    Returns:
+        None
+    """
     owner, name = repo.split("/")
 
     endpoint = f"repos/{owner}/{name}/issues?state=all"
 
     response = get_rest_response(endpoint, org= ORG_NAME in repo)
     for issue in response:
-        assert len(issue["labels"]) > 0
-        assert issue["assignees"][0]["login"] == OWNER
-        assert issue["locked"] == True
-        assert issue["active_lock_reason"] == "resolved"
+        assert len(issue["labels"]) > 0, \
+            f'{repo} Issue #{issue["number"]} has no label'
+        assert issue["assignees"][0]["login"] == OWNER, \
+            f'{repo} Issue #{issue["number"]} is not assigned to {OWNER}'
+        assert issue["locked"] == True, \
+            f'{repo} Issue #{issue["number"]} is not locked'
+        assert issue["active_lock_reason"] == "resolved", \
+            f'{repo} Issue #{issue["number"]} is not resolved'
         if not is_ps and "pull_request" not in issue:
             label_names = list(map(lambda x: x["name"], issue["labels"]))
-            assert "Request" in label_names
+            assert "Request" in label_names, \
+                f'{repo} Issue #{issue["number"]} has no "Request" label'
 
 def check_community_standards(repo: str):
     profile_response = get_rest_response(f"repos/{repo}/community/profile", org= ORG_NAME in repo)
