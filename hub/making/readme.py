@@ -4,10 +4,10 @@ import json
 import sys
 import os
 import jinja2
-from ..config import ORG_NAME
-from ..query.graphql import readme_query_template
-from ..util.files import get_text_from_file
-from ..util.github_api import get_graphql_response
+from hub.config import ORG_NAME
+from hub.query.graphql import readme_query_template
+from hub.util.files import get_text_from_file
+from hub.util.github_api import get_graphql_response
 
 def make_readme(repo: str):
     """
